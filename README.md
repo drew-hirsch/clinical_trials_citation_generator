@@ -1,6 +1,6 @@
 # ClinicalTrials.gov BibTeX and RIS Citation Generator
 
-This repository contains a **graphical tool** for batch citing clinical trial records from ClinicalTrials.gov using NCT numbers. The tool **fetches metadata via the ClinicalTrials.gov REST API** and outputs citations in **BibTeX** and **RIS** formats for easy import into citation managers.
+This repository contains a **graphical tool** for batch citing clinical trial records from ClinicalTrials.gov using NCT numbers. The tool **fetches metadata via the ClinicalTrials.gov REST API** and outputs citations in **BibTeX** and **RIS** formats for easy import into citation managers (i.e. Zotero). 
 
 ## Features
 - **Uses the ClinicalTrials.gov REST API** to retrieve trial data
@@ -37,6 +37,9 @@ python citations.py
 This script processes a file containing NCT numbers and generates the same citation outputs.
 
 ## Citation Format
+
+**Note:** The format and fields in RIS and BibTeX files do not always perfectly match all citation styles. Depending on the chosen style and author preferences, generated citations may not contain all necessary information.
+
 **BibTeX Example:**
 ```bibtex
 @article{NCT04052568,
