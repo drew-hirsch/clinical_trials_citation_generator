@@ -39,24 +39,22 @@ This script processes a file containing NCT numbers and generates the same citat
 ## Citation Format
 **BibTeX Example:**
 ```bibtex
-@article{NCT12345678,
-  title = {A Study on XYZ Treatment. ClinicalTrials.gov Identifier: NCT12345678},
-  year = {2024},
-  month = {March},
-  day = {1},
-  note = {Retrieved on 2024-03-02},
-  url = {https://clinicaltrials.gov/ct2/show/NCT12345678}
+@article{NCT04052568,
+  title = {Effects of Psilocybin in Anorexia Nervosa. ClinicalTrials.gov Identifier: NCT04052568},
+  year = {2023},
+  note = {Updated 2023-05-06. Retrieved 2025-03-02.},
+  url = {https://clinicaltrials.gov/ct2/show/NCT04052568}
 }
 ```
 
 **RIS Example:**
 ```ris
 TY  - JOUR
-TI  - A Study on XYZ Treatment. ClinicalTrials.gov Identifier: NCT12345678
-DA  - 2024/03/01
-UR  - https://clinicaltrials.gov/ct2/show/NCT12345678
-PY  - 2024
-RD  - 2024/03/02
+TI  - Effects of Psilocybin in Anorexia Nervosa. ClinicalTrials.gov Identifier: NCT04052568
+DA  - 2023/05/06
+UR  - https://clinicaltrials.gov/ct2/show/NCT04052568
+PY  - 2023
+RD  - 2025/03/02
 ER  -
 ```
 
