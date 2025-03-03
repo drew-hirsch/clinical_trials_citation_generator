@@ -9,14 +9,14 @@ This repository contains a **graphical tool** for batch citing clinical trial re
 - **Outputs formatted citations** in BibTeX (`citations.bib`) and RIS (`citations.ris`)
 - **Displays real-time progress updates**
 
-## Step 1: Prepare Your Input File
+## Prepare Your Input File
 Create a **TXT or CSV file** listing all ClinicalTrials.gov NCT identifier numbers (e.g., `NCT12345678`). Each NCT number should be on a separate line or in separate cells.
 
 ## How to Use
 ### 1. Using the Mac Application
 A macOS application **ClinicalTrialCiter.app** is available for ease of use.
 - Open `ClinicalTrialCiter.app`
-- Click "Select CSV/TXT File" and choose a file with NCT numbers.
+- Click "Select CSV/TXT File" and choose a .CSV or .TXT file with NCT numbers inside.
 - The tool extracts valid NCT numbers and fetches trial data using the ClinicalTrials.gov REST API.
 - Citations are saved as `citations.bib` and `citations.ris` in the same directory.
 
