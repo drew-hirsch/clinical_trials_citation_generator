@@ -16,14 +16,14 @@ This repository contains a **graphical tool** for batch citing clinical trial re
 Create a **TXT or CSV file** listing all ClinicalTrials.gov NCT identifier numbers (e.g., `NCT12345678`). Each NCT number should be on a separate line or in separate cells.
 
 ## How to Use
-### 1. Using the Mac Application
+### Using the Mac Application
 A macOS application **ClinicalTrialCiter.app** is available for ease of use.
 - Open `ClinicalTrialCiter.app`
 - Click "Select CSV/TXT File" and choose a .CSV or .TXT file with NCT numbers inside.
 - The tool extracts valid NCT numbers and fetches trial data using the ClinicalTrials.gov REST API.
 - Citations are saved as `citations.bib` and `citations.ris` in the same directory.
 
-### 2. Using the Python Script
+### Using the Python Script
 If you prefer running the script manually, use the following command:
 ```bash
 python gui_citations.py
@@ -32,12 +32,6 @@ python gui_citations.py
 - The tool extracts valid NCT numbers and fetches trial data using the ClinicalTrials.gov REST API.
 - Citations are saved as `citations.bib` and `citations.ris`.
 
-### 3. Running in Terminal Mode
-If you prefer a non-GUI version, run:
-```bash
-python citations.py
-```
-This script processes a file containing NCT numbers and generates the same citation outputs.
 
 ## Citation Format
 
