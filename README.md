@@ -2,6 +2,9 @@
 
 This repository contains a **graphical tool** for batch citing clinical trial records from ClinicalTrials.gov using NCT numbers. The tool **fetches metadata via the ClinicalTrials.gov REST API** and outputs citations in **BibTeX** and **RIS** formats for easy import into citation managers (i.e. Zotero). 
 
+![Application Screenshot](application_screenshot.png)
+
+
 ## Features
 - **Uses the ClinicalTrials.gov REST API** to retrieve trial data
 - **Graphical User Interface (GUI)** (No terminal required)
