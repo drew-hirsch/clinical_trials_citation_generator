@@ -30,7 +30,7 @@ A macOS application **ClinicalTrialCiter.app** is available for ease of use.
 ### Using the Python Script
 If you prefer running the script manually, use the following command:
 ```bash
-python gui_citations.py
+python citations.py
 ```
 - Click "Select CSV/TXT File" and choose a file with NCT numbers.
 - The tool extracts valid NCT numbers and fetches trial data using the ClinicalTrials.gov REST API.
