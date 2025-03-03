@@ -4,7 +4,6 @@ This repository contains a **graphical tool** for batch citing clinical trial re
 
 ![Application Screenshot](application_screenshot.png)
 
-
 ## Features
 - **Uses the ClinicalTrials.gov REST API** to retrieve trial data
 - **Graphical User Interface (GUI)** (No terminal required)
