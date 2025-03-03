@@ -11,6 +11,7 @@ This repository contains a **graphical tool** for batch citing clinical trial re
 - **Displays real-time progress updates**
 
 <br>
+
 ## Prepare Your Input File
 Create a **TXT or CSV file** listing all ClinicalTrials.gov NCT identifier numbers (e.g., `NCT12345678`). Each NCT number should be on a separate line or in separate cells.
 
